@@ -28,10 +28,10 @@ jobs:
             target: x86_64-apple-darwin
             rust_channel: stable
 
-          #- build: macos-arm
-          #  os: macos-latest
-          #  target: aarch64-apple-darwin
-          #  rust_channel: stable
+          - build: macos-arm
+            os: macos-latest
+            target: aarch64-apple-darwin
+            rust_channel: stable
 
     steps:
       - name: Git checkout
